@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DPKit-NSComboBox"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "DPKit-NSComboBox"
   s.homepage     = "http://dpostigo.com"
   s.license      = 'BSD'
@@ -11,8 +11,10 @@ Pod::Spec.new do |s|
   s.platform     = :osx, '10.8'
 
 
+  s.dependency     'DPKit'
   s.dependency     'DPKit-Styles'
   s.dependency     'DPKit-NSCell'
+  s.dependency     'DPKit-NSControl'
   s.frameworks   = 'Foundation', 'QuartzCore'
   s.requires_arc = true
 
