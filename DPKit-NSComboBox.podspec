@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-  s.name         = "DPKit-NSTextField"
+  s.name         = "DPKit-NSComboBox"
   s.version      = "0.0.1"
-  s.summary      = "DPKit-NSTextField"
+  s.summary      = "DPKit-NSComboBox"
   s.homepage     = "http://dpostigo.com"
   s.license      = 'BSD'
   s.author       = { "Dani Postigo" => "dani@firstperson.is" }
 
 
-  s.source       = { :git => "https://github.com/dpostigo/DPKit-NSTextField.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/dpostigo/DPKit-NSComboBox.git", :tag => s.version.to_s }
   s.platform     = :osx, '10.8'
 
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.frameworks   = 'Foundation', 'QuartzCore'
   s.requires_arc = true
 
-  s.source_files = 'DPKit-NSTextField/*.{h,m}'
+  s.source_files = 'DPKit-NSComboBox/*.{h,m}'
 
 
 
